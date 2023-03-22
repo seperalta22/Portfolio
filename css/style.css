@@ -6,6 +6,7 @@
   --main-font-family: 'Poppins', sans-serif;
   --main-font-color: #172b4d;
   --secondary-font-color: #344563;
+  --bg-image-mobile: url(../assets/img/bg-header-mobile@2x.svg);
 }
 
 *,
@@ -16,12 +17,58 @@
   padding: 0;
 }
 
+body {
+  font-family: var(--main-font-family);
+}
+
 a {
   text-decoration: none;
 }
 
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
 /* **** header **** */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.header__logo h2 {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  color: var(--main-color);
+}
+
+.header__menu {
+  width: 18px;
+  height: 12px;
+  margin-right: 1rem;
+}
 
 /* **** main **** */
 
+
+
 /* **** media queries **** */
+
+@media screen and (min-width: 768px) {
+  /* **** header **** */
+  /* **** main **** */
+}
+
+@media screen and (min-width: 375px) {
+  /* **** header **** */
+
+  .header__nav {
+    display: none;
+  }
+
+  /* **** main **** */
+}
