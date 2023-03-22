@@ -1,0 +1,27 @@
+/* **** globals **** */
+
+:root {
+  --main-color: #6070ff;
+  --main-bg-color: #fff;
+  --main-font-family: 'Poppins', sans-serif;
+  --main-font-color: #172b4d;
+  --secondary-font-color: #344563;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* **** header **** */
+
+/* **** main **** */
+
+/* **** media queries **** */
