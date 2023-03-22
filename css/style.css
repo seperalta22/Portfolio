@@ -6,6 +6,7 @@
   --main-font-family: 'Poppins', sans-serif;
   --main-font-color: #172b4d;
   --secondary-font-color: #344563;
+  --icons-color: #505f79;
   --bg-image-mobile: url(../assets/img/bg-header-mobile@2x.svg);
 }
 
@@ -17,8 +18,14 @@
   padding: 0;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: var(--main-font-family);
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -36,39 +43,88 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 0;
+  padding: 2.4rem 0;
 }
 
 .header__logo h2 {
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 1.8rem;
+  line-height: 2rem;
   font-weight: 700;
   color: var(--main-color);
 }
 
+.header__nav {
+  display: none;
+}
+
 .header__menu {
-  width: 18px;
-  height: 12px;
+  width: 1.8rem;
+  height: 1.2rem;
   margin-right: 1rem;
+}
+
+.hero__connect h3 {
+  color: var(--main-color);
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 500;
+  padding-bottom: 1.2rem;
 }
 
 /* **** main **** */
 
+.hero {
+  background-image: var(--bg-image-mobile);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 2.4rem;
+}
 
+.hero__main-content h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--main-font-color);
+  padding-bottom: 1.2rem;
+  line-height: 5.2rem;
+}
+
+.hero__main-content p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: var(--secondary-font-color);
+  padding-bottom: 2.4rem;
+}
+
+.hero__connect--social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 1.9rem;
+}
+
+.hero__connect--social img {
+  width: 2rem;
+  height: 2rem;
+}
 
 /* **** media queries **** */
 
 @media screen and (min-width: 768px) {
   /* **** header **** */
+
   /* **** main **** */
 }
 
 @media screen and (min-width: 375px) {
   /* **** header **** */
-
-  .header__nav {
-    display: none;
-  }
 
   /* **** main **** */
 }
