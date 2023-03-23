@@ -25,7 +25,9 @@
 - [📖 Portfolio ](#-portfolio-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
   - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
   - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
@@ -42,6 +44,10 @@ Portfolio is a project with great potential.
 - HTML
 - CSS
 
+### Key Features <a name="key-features"></a>
+
+
+- **Responsive Design**
 
 <!-- AUTHORS -->
 
@@ -57,7 +63,11 @@ Portfolio is a project with great potential.
 - Twitter: [@SePeralta22](https://twitter.com/SePeralta22)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/sergioperalta22)
 
+## 🔭 Future Features <a name="future-features"></a>
 
+- [ ] **Proyects Section**
+- [ ] **Contact me Section**
+- [ ] **About me Section**
 
 <!-- LICENSE -->
 
