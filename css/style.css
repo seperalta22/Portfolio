@@ -266,11 +266,17 @@ li {
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
-.works__card button:target {
-  background: #6070ff;
-  color: #fff;
-  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+.works__card button:active {
+  background: #2230d2;
 }
+
+.works__card button:disabled {
+  background: transparent;
+  color: #5e6c84;
+  border: 1px solid #5e6c84;
+  cursor: not-allowed;
+}
+
 
 /* **** about **** */
 
@@ -318,11 +324,18 @@ li {
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
-.about__main-content button:target {
-  background: #6070ff;
-  color: #fff;
-  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+.about__main-content button:active {
+  background: #2230d2;
 }
+
+.about__main-content button:disabled {
+  background: transparent;
+  color: #5e6c84;
+  border: 1px solid #5e6c84;
+  cursor: not-allowed;
+}
+
+
 
 /* **** desplegable menu **** */
 
