@@ -1,6 +1,5 @@
 <a name="readme-top"></a>
 
-
 <div align="center">
   <br/>
   <br/>
@@ -12,13 +11,12 @@
   <br/>
   <br/>
 
-
-
   <h1><b>Portfolio</b></h1>
 
 </div>
 
 <!-- TABLE OF CONTENTS -->
+
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
@@ -34,7 +32,6 @@
 
 # 📖 Portfolio <a name="about-project"></a>
 
-
 Portfolio is a project with great potential.
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -46,16 +43,11 @@ Portfolio is a project with great potential.
 
 ### Key Features <a name="key-features"></a>
 
-
 - **Responsive Design**
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-
-  
-  
 
 👤 Sergio Peralta
 
@@ -65,15 +57,14 @@ Portfolio is a project with great potential.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Proyects Section**
+- **Proyects Section** ✔️
+- **About me Section** ✔️
 - [ ] **Contact me Section**
-- [ ] **About me Section**
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
