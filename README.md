@@ -171,7 +171,7 @@ Example:
 
 - **Proyects Section** ✔️
 - **About me Section** ✔️
-- [ ] **Contact me Section**
+- **Contact me Section** ✔️
 
 <!-- CONTRIBUTING -->
 
