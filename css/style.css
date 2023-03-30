@@ -36,9 +36,7 @@ a {
 }
 
 img {
-  display: block;
   max-width: 100%;
-  width: auto;
   height: auto;
 }
 
@@ -574,10 +572,6 @@ li {
     padding: 2.4rem;
   }
 
-  .works__card img {
-    max-width: 100%;
-  }
-
   .works__card:nth-child(2) {
     order: 4;
   }
@@ -600,6 +594,7 @@ li {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    max-width: 50%;
   }
 
   .works__card--text h2 {
