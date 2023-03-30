@@ -521,7 +521,7 @@ li {
     width: 12rem;
   }
 
-  .header__nav ul li {
+  .header__nav ul li a {
     font-size: 1.5rem;
     line-height: 2rem;
     font-weight: 500;
