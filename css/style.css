@@ -528,6 +528,11 @@ li {
     color: var(--secondary-font-color);
   }
 
+  .header__nav:hover ul li {
+    transform: scale(1.2);
+    transition: transform 0.3s eas;
+  }
+
   .header__menu {
     display: none;
   }
@@ -570,6 +575,11 @@ li {
     justify-content: center;
     gap: 4.6rem;
     padding: 2.4rem;
+  }
+
+  .works__card img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
   }
 
   .works__card:nth-child(2) {
