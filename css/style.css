@@ -355,6 +355,11 @@ li {
   cursor: not-allowed;
 }
 
+.header__logo h2:hover {
+  transform: rotate(360deg);
+  transition: all 0.5s ease-in-out;
+}
+
 /* **** desplegable menu **** */
 
 .about__main-content--skills {
@@ -528,7 +533,7 @@ li {
     color: var(--secondary-font-color);
   }
 
-  .header__nav:hover ul li {
+  .header__nav ul li:hover {
     transform: scale(1.2);
     transition: transform 0.3s eas;
   }
@@ -595,9 +600,9 @@ li {
     padding-left: 4.8rem;
   }
 
-  .svg-container {
-    height: 44.8rem;
-    width: 54.4rem;
+  .img-container {
+    display: flex;
+    justify-content: center;
   }
 
   .works__card--text {
