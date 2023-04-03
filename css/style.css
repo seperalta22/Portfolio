@@ -590,6 +590,12 @@ li {
     width: 54.4rem;
   }
 
+  .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .works__card--text {
     display: flex;
     flex-direction: column;
