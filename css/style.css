@@ -1,13 +1,13 @@
 /* **** globals **** */
 
 :root {
-  --main-color: #273dff;
+  --main-color: #060e52;
   --main-bg-color: ##e5e5e5;
-  --secondary-bg-color: #fff;
+  --secondary-bg-color: rgba(124, 123, 123, 0.372);
   --main-font-family: 'Poppins', sans-serif;
   --main-font-color: #172b4d;
-  --secondary-font-color: #344563;
-  --terciary-font-color: #7a869a;
+  --secondary-font-color: #221749;
+  --terciary-font-color: #262629;
   --icons-color: #505f79;
   --bg-image-mobile: url(../assets/img/bg-header-mobile@2x.svg);
 }
@@ -57,7 +57,7 @@ li {
   align-items: center;
   width: 100%;
   padding: 2.4rem;
-  background-color: var(--secondary-bg-color);
+  background-color: #ffae40;
 }
 
 .header__logo h2 {
@@ -161,7 +161,7 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  background-color: var(--secondary-bg-color);
+  background-color: #ffae40;
   border-radius: 1.6rem;
   border: 1px solid #dfe1e6;
   padding: 1.6rem;
@@ -182,7 +182,7 @@ li {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 2.4rem;
-  color: var(--secondary-font-color);
+  color: black;
 }
 
 .works__card--info {
@@ -218,7 +218,7 @@ li {
   font-size: 1.3rem;
   font-weight: 600;
   line-height: 1.6rem;
-  color: #7a869a;
+  color: #171818;
 }
 
 .works__card--tags {
@@ -267,7 +267,7 @@ li {
 }
 
 .works__card button {
-  background-color: transparent;
+  background-color: white;
   border: 1px solid #396df2;
   border-radius: 0.8rem;
   padding: 1.2rem;
@@ -319,7 +319,7 @@ li {
   padding-bottom: 1.2rem;
 }
 
-.about__main-content h3 {
+#heading_main {
   color: var(--main-color);
   font-size: 1.6rem;
   line-height: 2.4rem;
