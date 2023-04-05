@@ -3,7 +3,7 @@
 :root {
   --main-color: #060e52;
   --main-bg-color: ##e5e5e5;
-  --secondary-bg-color: rgba(124, 123, 123, 0.372);
+  --secondary-bg-color: #fff;
   --main-font-family: 'Poppins', sans-serif;
   --main-font-color: #172b4d;
   --secondary-font-color: #221749;
@@ -22,11 +22,15 @@
 
 html {
   font-size: 62.5%;
+  display: block;
+}
+
+.f_cr {
+  display: flex;
 }
 
 body {
   font-family: var(--main-font-family);
-  display: flex;
   flex-direction: column;
   background-color: #f7f7f9;
 }
@@ -52,7 +56,6 @@ li {
 /* **** header **** */
 
 .header {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -87,7 +90,6 @@ li {
   background-position: top;
   width: 100%;
   height: 90vh;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
@@ -120,7 +122,6 @@ li {
 }
 
 .hero__connect--social {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -158,7 +159,6 @@ li {
 }
 
 .works__card {
-  display: flex;
   flex-direction: column;
   justify-content: start;
   background-color: #ffae40;
@@ -186,14 +186,12 @@ li {
 }
 
 .works__card--info {
-  display: flex;
   align-items: center;
   gap: 1.2rem;
   margin-bottom: 2rem;
 }
 
 .works__card--info li {
-  display: flex;
   align-items: center;
   gap: 1.2rem;
 }
@@ -222,7 +220,6 @@ li {
 }
 
 .works__card--tags {
-  display: flex;
   flex-wrap: wrap;
   gap: 1.2rem;
 }
@@ -328,7 +325,6 @@ li {
 }
 
 .about__main-content--social {
-  display: flex;
   align-items: center;
   width: 100%;
   gap: 1.9rem;
@@ -388,7 +384,6 @@ li {
 }
 
 .about__main-content--skills--list li {
-  display: flex;
   align-items: center;
   gap: 1.2rem;
   background-color: #f7f7f9;
@@ -426,7 +421,6 @@ li {
   background-repeat: no-repeat;
   background-position: right top;
   background-size: 60% 100%, cover;
-  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -452,7 +446,6 @@ li {
 }
 
 .contact__form {
-  display: flex;
   flex-direction: column;
   align-items: start;
   gap: 1.8rem;
@@ -499,23 +492,20 @@ li {
 @media screen and (min-width: 768px) {
   /* **** header **** */
   .header {
-    display: flex;
     padding: 2.5rem 10vw;
     position: fixed;
     top: 0;
   }
 
   .header__nav {
-    display: flex;
+    display: unset;
   }
 
   .header__nav ul {
-    display: flex;
     gap: 3.2rem;
   }
 
   .about__main-content--skills--list li {
-    display: flex;
     flex-direction: column;
     align-items: start;
     width: 12rem;
@@ -591,13 +581,11 @@ li {
   }
 
   .img-container {
-    display: flex;
     justify-content: center;
     align-items: center;
   }
 
   .works__card--text {
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
     max-width: 50%;
@@ -628,7 +616,6 @@ li {
   }
 
   .about__main-content--skills {
-    display: flex;
     flex-direction: column;
     justify-content: flex-start;
   }
@@ -656,7 +643,6 @@ li {
   }
 
   .contact__form {
-    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1.8rem;
