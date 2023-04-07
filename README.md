@@ -34,6 +34,7 @@
     - [Deployment](#deployment)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
+  - [Walkthrough ](#walkthrough-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
@@ -173,6 +174,12 @@ Example:
 - **Proyects Section** ✔️
 - **About me Section** ✔️
 - **Contact me Section** ✔️
+
+## Walkthrough <a name="walkthrough"></a>
+
+This [video](https://www.loom.com/share/5e95d8d2387a428ea26a70b9a102643c) explains why this project that started with BEM methodology, originally intended to be easily readable and reusable, ended up with an isolated class repeated 51 times because of Microverse code reviewers.
+I apologize for that, I assure you that I usually write better code.
+It also explains the future of this project.
 
 <!-- CONTRIBUTING -->
 
