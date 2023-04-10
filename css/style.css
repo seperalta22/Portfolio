@@ -495,7 +495,8 @@ li {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #6070ffe7;
+  background: #6070ffe3;
+  backdrop-filter: blur(5px);
   z-index: 5000;
 }
 
