@@ -490,40 +490,40 @@ li {
 /**** menu ****/
 
 .menu {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: #6070ffe7;
-	z-index: 5000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #6070ffe7;
+  z-index: 5000;
 }
 
 .close-button {
-	position: absolute;
-	top: 3.8rem;
-	right: 3.8rem;
-	font-size: 3rem;
-	color: #fff;
-	cursor: pointer;
-	background-color: transparent;
-	border: none;
+  position: absolute;
+  top: 3.8rem;
+  right: 3.8rem;
+  font-size: 3rem;
+  color: #fff;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
 }
 
 .options-list {
-	display: flex;
-	flex-direction: column;
-	align-items: start;
-	gap: 4rem;
-	margin-top: 10rem;
-	padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 4rem;
+  margin-top: 10rem;
+  padding: 3rem;
 }
 
 .options-list li a {
-	font-size: 3rem;
-	font-weight: 700;
-	line-height: 3.6rem;
-	color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.6rem;
+  color: #fff;
 }
 
 /* ******** media queries ******** */
