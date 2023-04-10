@@ -2,7 +2,7 @@
 
 :root {
   --main-color: #081053;
-  --main-bg-color: ##e5e5e5;
+  --main-bg-color: #e5e5e5;
   --secondary-bg-color: #fff;
   --main-font-family: 'Poppins', sans-serif;
   --main-font-color: #172b4d;
@@ -152,7 +152,7 @@ li {
 .works {
   padding: 11.4rem 0;
   display: grid;
-  grid-template-columns: repeat(1fr);
+  grid-template-columns: 1fr;
   gap: 8.8rem;
   width: 90%;
   margin: 0 auto;
