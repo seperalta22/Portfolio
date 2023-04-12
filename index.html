@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Portfolio</title>
 		<link rel="stylesheet" href="css/style.css" />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
-			rel="stylesheet"
-		/>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+			rel="stylesheet" />
 	</head>
 
 	<body>
@@ -99,7 +98,7 @@
 						<li>CSS</li>
 						<li>JavaScript</li>
 					</ul>
-					<button type="button">See project</button>
+					<button type="button" class="button">See project</button>
 				</div>
 			</div>
 			<div class="works__card f_cr">
@@ -129,7 +128,7 @@
 						<li>CSS</li>
 						<li>JavaScript</li>
 					</ul>
-					<button type="button">See project</button>
+					<button type="button" class="button">See project</button>
 				</div>
 			</div>
 			<div class="works__card f_cr">
@@ -159,7 +158,7 @@
 						<li>CSS</li>
 						<li>JavaScript</li>
 					</ul>
-					<button type="button">See project</button>
+					<button type="button" class="button">See project</button>
 				</div>
 			</div>
 			<div class="works__card f_cr">
@@ -190,11 +189,10 @@
 						<li>CSS</li>
 						<li>JavaScript</li>
 					</ul>
-					<button type="button">See project</button>
+					<button type="button" class="button">See project</button>
 				</div>
 			</div>
 		</section>
-
 		<section class="about" id="about">
 			<div class="about__main-content">
 				<h2>About Myself</h2>
@@ -234,15 +232,11 @@
 				</ul>
 				<button type="button">Get my resume</button>
 			</div>
-			<ul class="about__main-content--skills class="f_cr"">
+			<ul class="about__main-content--skills class=" f_cr"">
 				<li>
 					<label for="languages">Languages</label>
 					<input type="checkbox" id="languages" class="menu-item-checkbox" />
-					<img
-						class="menu-item-icon"
-						src="assets/img/Disabled.svg"
-						alt="arrow"
-					/>
+					<img class="menu-item-icon" src="assets/img/Disabled.svg" alt="arrow" />
 					<ul class="about__main-content--skills--list">
 						<li class="f_cr">
 							<img src="assets/img/JS.svg" alt="javascript" />
@@ -261,11 +255,7 @@
 				<li>
 					<label for="frameworks">Frameworks</label>
 					<input type="checkbox" id="frameworks" class="menu-item-checkbox" />
-					<img
-						class="menu-item-icon"
-						src="assets/img/Disabled.svg"
-						alt="arrow"
-					/>
+					<img class="menu-item-icon" src="assets/img/Disabled.svg" alt="arrow" />
 					<ul class="about__main-content--skills--list">
 						<li class="f_cr">
 							<img src="assets/img/JS.svg" alt="react" />
@@ -284,11 +274,7 @@
 				<li>
 					<label for="skills">Skills</label>
 					<input type="checkbox" id="skills" class="menu-item-checkbox" />
-					<img
-						class="menu-item-icon"
-						src="assets/img/Disabled.svg"
-						alt="arrow"
-					/>
+					<img class="menu-item-icon" src="assets/img/Disabled.svg" alt="arrow" />
 					<ul class="about__main-content--skills--list">
 						<li class="f_cr">
 							<img src="assets/img/JS.svg" alt="database" />
@@ -314,38 +300,49 @@
 				that you need built or a project that needs coding. I’d love to help
 				with it!
 			</p>
-			<form
-				action="https://formspree.io/f/mwkjredy"
-				method="POST"
-				class="contact__form f_cr"
-			>
-				<input
-					type="text"
-					name="name"
-					placeholder="Your Name"
-					maxlength="30"
-					required
-				/>
-				<input
-					type="email"
-					name="email"
-					placeholder="Your E-mail"
-					id="email"
-					required
-				/>
-				<textarea
-					name="form-descrip"
-					id="form-descrip"
-					cols="30"
-					rows="10"
-					maxlength="500"
-					placeholder="Write yor message here..."
-					required
-				></textarea>
+			<form action="https://formspree.io/f/mwkjredy" method="POST" class="contact__form f_cr">
+				<input type="text" name="name" placeholder="Your Name" maxlength="30" required />
+				<input type="email" name="email" placeholder="Your E-mail" id="email" required />
+				<textarea name="form-descrip" id="form-descrip" cols="30" rows="10" maxlength="500"
+					placeholder="Write yor message here..." required></textarea>
 				<button type="submit">Get in touch</button>
 			</form>
 		</section>
-		<script src="js/main.js"></script>
+		<div class="modal">
+			<div class="modal-content">
+				<div class="between">
+					<h2 class="modal-title"></h2>
+					<span class="close"><img src="assets/img/xButton.svg" alt="close"></span>
+				</div>
+				<div class="modal-project-info"></div>
+				<div class="image-container">
+					<img class="modal-image" src="" alt="">
+				</div>
+				<div class="d-flex">
+					<p class="modal-description"></p>
+					<div class="second">
+						<div class="modal-badges f_cr"></div>
+						<div class="modal-buttons">
+							<a class="modal-button live-button" href="" target="_blank">See Live
+								<img src="assets/img/LiveButton.svg" alt="live">
+							</a>
+							<a class="modal-button source-button" href="" target="_blank">See Source
+								<img src="assets/img/gatoButton.svg" alt="github">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="modal-nav">
+					<button class="modal-nav-button prev-button" onclick="fillModal(projects[index - 1], index - 1)"
+						disabled>
+						<-- Previous</button> <button class="modal-nav-button next-button"
+							onclick="fillModal(projects[index + 1], index + 1)" disabled>Next -->
+					</button>
+				</div>
+			</div>
+		</div>
+		<script src="js/menu.js"></script>
+		<script src="js/modal.js"></script>
 	</body>
 
 </html>
