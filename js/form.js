@@ -32,6 +32,17 @@ function saveData() {
   localStorage.setItem('formData', JSON.stringify(data));
 }
 
+function loadData() {
+	const formData = JSON.parse(localStorage.getItem('formData'));
+
+	if (formData) {
+		nameInput.value = formData.name;
+		emailInput.value = formData.email;
+		messageInput.value = formData.message;
+	}
+}
+
 emailInput.addEventListener('input', saveData);
 nameInput.addEventListener('input', saveData);
 messageInput.addEventListener('input', saveData);
+loadData();
