@@ -1,5 +1,7 @@
 const form = document.querySelector('.contact__form');
 const emailInput = document.getElementById('email');
+const nameInput = document.getElementById('name');
+const messageInput = document.getElementById('message');
 const emailError = document.getElementById('email-error');
 
 form.addEventListener('submit', (event) => {
@@ -16,3 +18,20 @@ form.addEventListener('submit', (event) => {
     }, 5000);
   }
 });
+
+// Local Storage section
+
+function saveData() {
+  // this is the object required
+  const data = {
+    name: nameInput.value,
+    email: emailInput.value,
+    message: messageInput.value,
+  };
+
+  localStorage.setItem('formData', JSON.stringify(data));
+}
+
+emailInput.addEventListener('input', saveData);
+nameInput.addEventListener('input', saveData);
+messageInput.addEventListener('input', saveData);
