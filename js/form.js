@@ -46,3 +46,7 @@ emailInput.addEventListener('input', saveData);
 nameInput.addEventListener('input', saveData);
 messageInput.addEventListener('input', saveData);
 loadData();
+
+form.addEventListener('submit', () => {
+  localStorage.removeItem('formData');
+});
