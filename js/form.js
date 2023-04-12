@@ -33,13 +33,13 @@ function saveData() {
 }
 
 function loadData() {
-	const formData = JSON.parse(localStorage.getItem('formData'));
+  const formData = JSON.parse(localStorage.getItem('formData'));
 
-	if (formData) {
-		nameInput.value = formData.name;
-		emailInput.value = formData.email;
-		messageInput.value = formData.message;
-	}
+  if (formData) {
+    nameInput.value = formData.name;
+    emailInput.value = formData.email;
+    messageInput.value = formData.message;
+  }
 }
 
 emailInput.addEventListener('input', saveData);
