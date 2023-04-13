@@ -169,6 +169,12 @@ Example:
 - Twitter: [@SePeralta22](https://twitter.com/SePeralta22)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/sergioperalta22)
 
+👤 Enmanuel Bayen
+
+- GitHub: [@enmanuelbayen](https://github.com/enmanuelbayen)
+- Twitter: [@EJbayen](https://twitter.com/EJbayen)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/enmanuel-bayen-torres-480906128/)
+
 ## 🔭 Future Features <a name="future-features"></a>
 
 - **Proyects Section** ✔️
