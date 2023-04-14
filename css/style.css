@@ -643,6 +643,7 @@ li {
     padding: 2.5rem 10vw;
     position: fixed;
     top: 0;
+    z-index: 1000;
   }
 
   .header__nav {
